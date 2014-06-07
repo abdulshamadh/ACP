@@ -1,0 +1,1245 @@
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+h2 {
+    color:#e88d12;
+    font-weight:bold;
+    font-size:15px;
+}
+
+
+@font-face {
+    font-family: 'Calibri';
+    src: url('../font/calibri.eot');
+    src: url('../font/calibri.eot?#iefix') format('embedded-opentype'),
+        url('../font/calibri.woff') format('woff'),
+        url('../font/calibri.ttf') format('truetype'),
+        url('../font/calibri.svg#calibri') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Calibri';
+    src: url('../fonts/calibri.eot');
+    src: url('../fonts/calibri.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/calibri.woff') format('woff'),
+        url('../fonts/calibri.ttf') format('truetype'),
+        url('../fonts/calibri.svg#calibri') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'GeosansLight';
+    src: url('../fonts/geosanslight.eot');
+    src: url('../fonts/geosanslight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/geosanslight.woff') format('woff'),
+        url('../fonts/geosanslight.ttf') format('truetype'),
+        url('../fonts/geosanslight.svg#geosanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+#outerwrap{margin:0 auto;padding:0;width:960px;}
+#innerwrap{margin:0;padding:0;float:left;width:960px;}
+#inner_outerwrap{margin:0 auto;padding:0;width:1000px;}
+#inner_contentwrap{margin:0;padding:0;float:left;width:1000px;}
+#inner_outerwrap .footer{width:1000px;}
+.header{margin:0;padding:0;float:left;width:960px;}
+.header-banner{margin:0;padding:28px 0 0 0;float:left;width:1000px;text-align:center;}
+.content{margin:0;padding:100px 0 80px 0;float:left;width:100%;border:1px solid #01A7E5;}
+.left{margin:0;padding:0 0 0 2px;float:left;width:624px;position:relative;}
+.login-box{margin:0;padding:0 90px 0 35px;float:right;width:297px;}
+.login-box img{margin:3px 14px 0 0;float:right;}
+.signin-section{margin:0;padding:20px 0 58px 0;float:left;}
+.signin-section p{margin:0 0 10px 0;padding:0;float:left;width:100%;}
+.signin-section p label{color:#01A7E5;font-size:17px;line-height: 36px;float:left;font-family: 'Calibri';margin:0 0 0 13px;width:72px;text-align:right;}
+.signin-section p input{margin:0 10px 0 0;padding:8px 5px;float:right;color:#01A7E5;border:0;width:177px;/*background:url("../images/input-bg.png") no-repeat left top*/border:1px solid #01A7E5;border-radius:5px;behavior: url("../css/PIE.htc");}
+.signin{margin:0;padding:0;float:right;width:120px;height:65px;cursor:pointer;background:url("../images/signin.jpg") no-repeat left top;border:0;}
+.forgot-pass{margin:4px 10px 0 0;padding:0 24px 0 0;float:right;clear:both;font-size:12px;font-family: 'Calibri';font-size:17px;background:url("../images/forgot-icon.png") no-repeat right top;text-decoration:none;color:#01A7E5;}
+.middle{margin:0;padding:0;float:left;width:100%;}
+.right{margin:0;padding:0 0 0 78px;float:left;text-align:center;width:350px;}
+.footer{margin:0;padding:0 0 40px 0;float:left;width:960px;text-align:center;}
+.footer p{margin:0 0 0 25px;padding:0;font-size:12px;color:#016B9F;font-family: 'Calibri';}
+.helpus-text{margin:0;padding:0;font-size:12px;color:#016B9F;font-family: 'Calibri';clear:both;}
+.helpus-text a{font-weight:normal;text-decoration:none;font-size:14px;color:#016B9F;font-family: 'Calibri';}
+.helpus-text a:hover{text-decoration:underline;}
+.footer-links{margin:0 0 0 25px;padding:5px 0;}
+.footer-links li{margin:0 5px;padding:0;list-style:none;color:#016B9F;display:inline;}
+.footer-links li a{text-decoration:none;font-size:12px;color:#016B9F;font-family: 'Calibri';}
+.footer-links li a:hover{text-decoration:underline;}
+.footer-nav-icons{margin:0 0 0 45px;padding:0;}
+.footer-dock{margin:0 40px 0 0;padding:0;}
+.bottom-logo{position:absolute;bottom:-112px;left:-45px;}
+.register-now{margin:5px 0px 0 6px;}
+.rentamount{margin:0 5px 0 0;padding:5px;float:right;color:#0074AA;border:0;width:56px;/*background:url("../images/input-bg.png") no-repeat left top*/border:1px solid #7dbeff;border-radius:5px;behavior: url("../css/PIE.htc");}
+
+
+.welcome_info{margin:60px 0 40px 0;padding:0;float:left;width:100%;text-align:center;font-family: 'Calibri';}
+.welcome_info p{font-size:20px;font-weight:bold;color:#0074AA;line-height:20px;}
+
+
+.inner-header{margin:0px 0;padding:76px 4px 5px 0;float:left;width:996px;border-bottom:5px solid #0bb3f9;}		
+.thankyou-header{margin:0px 0 15px;padding:76px 4px 5px 0;float:left;width:996px;border-bottom:5px solid #0bb3f9;text-align:center;}		
+.thankyou-header .logo{margin:0;padding:0;}
+#formcontainer 
+{
+    text-align: left;
+    width: 100%;
+    float:left;
+    color: #0074AA;
+    font-family: 'Calibri';
+    font-size:16px;
+}
+
+#formcontainer h1
+{	
+    color: #0074AA ;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.2em;
+    font-family: 'Calibri';
+    margin:15px 0 15px 5px;
+    float:left;
+}
+#privacyformcontainer{
+    margin:0px 0 15px 0;
+    padding:0px 30px 20px;
+    text-align: left;
+    width: 960px;
+    float:left;
+    font-family: 'Calibri';
+    font-size:16px;
+}
+#privacyformcontainer p{
+    font-size:18px;
+    font-family: 'Calibri';
+}
+#privacyformcontainer a{
+    color:red;
+    text-decoration:underline;
+}
+.privacyinnerheading{
+    float:left;
+    font-family: 'Calibri';
+    width: 960px;
+    margin-bottom: 15px;
+    font-size:18px;
+}
+#privacyinnerline
+{
+    text-decoration:underline;
+}
+#privacylist
+{
+    float: left;
+    width: 100%;
+    margin: 0 0 0 20px;
+    padding-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 10px;
+}
+#privacylist li
+{
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    background-image: url("../images/privacybullet.jpg");
+    background-origin: padding-box;
+    background-position: left 2px;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    background-position:left 6px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 0;
+    padding-top: 0;
+    font-size: 18px;
+}
+
+.privacyheading
+{
+    float: left;
+    font-family: 'Calibri';
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 17px;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: underline;
+    width: 960px;
+}
+#editformcontainer {
+    margin:0px 0 15px 0;
+    padding:0px 30px 20px;
+    text-align: left;
+    width: 944px;
+    float:left;
+    border-top:5px solid #0BB3F9;
+}
+
+#editformcontainer h1
+{	
+    color: #1569C7 ;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 1.2em;
+    font-family: 'Calibri';
+    margin:15px 0 15px 5px;
+    float:left;
+}
+.tenants_work {padding-top:25px;}
+.landlord_work{padding-top:25px;}
+.howitworks{margin-left:165px;}
+.contact{margin-left:235px;}
+.answer{margin-left:30px;}
+
+.form_inputs span.notestext_online{color: #FF0000;  float: left;  font-size: 12px;  font-style: normal;  line-height: 19px;   margin: 10px 0 5px 358px;   text-align: left;    width: 325px;font-family: 'Calibri';}
+.form_content{margin:0;padding:0;flaot:left;width:100%;}
+.form_inputs{float:left;width:100%;clear:both;margin:6px 0 6px;}
+.submitform_inputs{float:left;width:100%;clear:both;margin:6px 0 6px;text-align:center;}
+#formcontainer #accessForm h1{float:none;width:100%;text-align:center;margin: 60px 0 0px 5px;}
+#formcontainer #accessForm .form_inputs label{width: 43%;}
+#formcontainer #accessForm .form_inputs .jqTransformInputWrapper{width:180px !important;}
+#formcontainer #accessForm .form_inputs #access{margin: 0 0 0 75px;}
+#accessForm .form_inputs .jqTransformInputWrapper #accessid{width:175px !important;}
+
+.note_text{margin:60px 0 10px 0;padding:0;float:left;width:100%;text-align:center;color:#0074AA ;}
+.note_text p{margin:0;padding:0;font-family: 'Calibri';font-size:14px;}
+.form_content label{color:#0074AA ;width:36%;text-align:right;font-family: 'Calibri';font-size:14px;}
+.form_inputs span{margin:0px 0 0 0px;float:left;font-size:13px;color:red;font-style:normal;}
+.form_content label.fax{width:auto;margin:3px 20px 0 8px;}
+.form_content label.check{width:auto;margin:3px 5px 0 8px;}
+.radiobox_wrap{width:215px;float:left;padding:0 0 0 5px;}
+.captcha_wrap{float:left;padding:0;}
+.captcha_wrap #captcha{float:left;clear:both;margin:15px 0 0 5px}
+#captcha{float:left;clear:both;margin:15px 0 0 5px}
+.captcha_wrap #change-image{float:left;clear:both;margin:20px 0 0 5px;color: #0074AA ;text-decoration:none;font-family: 'Calibri';font-size:13px;}
+#registration{margin:10px 169px 0 0;padding:0;float:right;background:url("../images/submit_application.jpg") no-repeat left top;width:205px;height:38px;cursor:pointer;}
+#tenant_form{margin:10px 0px 0 5px;padding:0;float:left;background:url("../images/submit_application.jpg") no-repeat left top;width:205px;height:38px;cursor:pointer;}
+
+.helptext{margin:5px 169px 0 0;float:right;font-size:12px;color:#0074AA ;clear:both;}
+.helptext a{color:#0074AA ;text-decoration:none;font-weight:bold;}
+.instruction-img-outer{margin:15px 0 0;padding:0;float:left;width:100%;text-align:center;}
+.application_link{margin:0 2px 24px 0;padding:0;float:right;}
+.inner-header .logo{margin:0;padding:0;float:left;}
+.site_address{margin:0;float:right;font-weight:bold;font-size:12px;text-transform:uppercase;color:#0074AA;text-decoration:none;font-family: 'Calibri';}
+.fax-no{margin:3px 0 0 0;float:right;font-size:12px;color:#0074AA;font-family: 'Calibri';clear:both;}
+#agreeInfo{margin:0 0 0 0px;font-size:17px;color:#0074AA;font-family: 'Calibri';font-style:normal;}
+#agreeInfo a{font-size:17px;color:#0074AA;font-family: 'Calibri';font-style:normal;font-weight:bold;}
+.file_browse{margin:0 0 0 5px;padding:0;width:225px;float:left;}
+
+.form_inputs span.input_desc{margin:6px 0 0 5px;padding:0;float:left;clear:both;font-size:13px;color:#0074AA;font-family: 'Calibri';font-style:normal;font-weight:bold;}
+.form_content label.digital_sign{font-size:20px;margin-top:0;}
+#digitalsign{margin:0;width:160px !important;}
+.digi-sign-outer{margin:0;padding:0;float:left;}
+.digi-sign{margin:3px 0 0 0;padding:0;float:left;}
+.digi-sign .jqTransformInputWrapper{width:170px !important;}
+.digi-sign-date{margin:3px 0 0 5px;padding:0;float:left;}
+form.jqtransformdone .digi-sign-date label{font-size: 14px;  margin-top: 2px;color:#0074AA; font-family: 'Calibri';width:auto;}
+.digi-sign-date .jqTransformInputWrapper{margin:0;padding:0;width:55px !important;}
+.digi-sign-date .jqTransformInputInner div input{width:45px !important}
+.form_content .extention-wrap .jqTransformInputInner div input{width:45px !important}
+.form_inputs span.digi-sign-msg{margin:5px;padding:0;font-size:13px;font-family: 'Calibri';font-style:normal;float:left;clear:both;color:#0074AA;}
+
+.form_content label.routing_text{width:auto;margin:2px 7px 0;}
+.routing_wrap .jqTransformInputWrapper{width:190px !important}
+.phonenum-wrap .jqTransformInputWrapper{width:183px !important;}
+.extention-wrap{margin:0 0 0 4px;float:left}
+.form_content .extention-wrap label{margin:3px 2px 0 0;padding:0;font-size:13px;font-family: 'Calibri';font-style:normal;float:left;clear:both;color:#0074AA;width:auto;}
+.form_content .extention-wrap .jqTransformInputWrapper{width:55px !important;}
+.ERROR
+{
+    background: url("../images/error.png") no-repeat scroll 10px 5px #FFCCCC;
+    border: 1px solid #DD7777;
+    color: #A91212;
+    float: left;
+    margin-bottom: 15px;
+    padding: 10px 0px 10px 40px;
+    text-align: left;
+    text-decoration: blink;
+    width: 95%;
+}
+.SUCCESS
+{
+    background: url("../images/success.png") no-repeat scroll 10px 5px #779E16;
+    border: 1px solid #8BBC18;
+    color: #8BBC18;
+    float: left;
+    padding: 10px 0px 10px 40px;
+    text-align: left;
+    text-decoration: blink;
+    width: 95%;
+}
+.customForm div span.error,#error
+{
+    color: #e46c6e;
+}
+.form_inputs .submit
+{
+    background: url("../images/submit.png") no-repeat scroll left top transparent;
+    cursor: pointer;
+    float: right;
+    height: 38px;
+    margin: 10px 169px 0 0;
+    padding: 0;
+    width: 205px;
+}
+
+.submitform_inputs .submit{margin:0 0 0 20px;float:none;
+                           background: url("../images/send.jpg") no-repeat scroll left top transparent;
+                           cursor: pointer;
+
+                           height: 35px;
+
+                           padding: 0;
+                           width: 110px;
+}
+.jqTransformTextarea{margin:0 5px 0 5px;
+                     float:left;
+}
+.landlord_application_btn{margin:25px 0 60px 0;border:0;float:left;}
+.form_inputs .submitform_inputs { clear: none; float: right; margin: 0 5px 6px 0; text-align: center;  width: 110px;}
+.form_inputs .submitform_inputs .submit { background: url("../images/submit.png") no-repeat scroll left top transparent; cursor: pointer; float: none;  height: 35px;  margin: 0; padding: 0;  width: 110px;}
+#formcontainer .submitform_inputs .submit{margin:0 0 0 211px;}
+.support_header{margin:0;padding:0;float:left;width:100%;text-align:center;}
+.support_header img{margin:0 0 0 60px;}
+.support_form{margin:0;padding:0 0 0 25px;float:left;width:945px;}
+
+.submitform_inputs .forget_submit{
+    background: url("../images/submit.png") no-repeat scroll left top transparent;
+    cursor: pointer;
+    float: none;
+    height: 35px;
+    margin: 0 0 0 0px;
+    padding: 0;
+    width: 110px;
+}
+
+/*innepage styles */
+.innerpage-header{
+    border-bottom: 2px solid #0BB3F9;
+    float: left;
+    margin: 0 0 15px;
+    padding: 35px 4px 10px 0;
+    text-align:center;
+    width: 996px;
+
+}
+
+.innerpage-header .logo{float:left;margin:25px 0 0 0;}
+.payment_center{float:right;}
+.property_usa{margin:70px 0 0 168px;padding:0;}
+
+.submitform_inputs #change_pass{
+    background: url("../images/change.jpg") no-repeat scroll left top transparent;
+    cursor: pointer;
+    float: none;
+    height: 35px;
+    margin: 0 0 0 15px;
+    padding: 0;
+    width: 110px;		
+}
+#cancelpassword {background: url("../images/cancel.jpg") no-repeat scroll left top transparent;cursor: pointer;float: none;height: 35px;margin: 0 0 0 82px;padding: 0;width: 110px;}
+
+
+/* subscription page styles */
+
+#subscriptionform_content{
+    float: left;
+    margin: 0 0 15px;
+    padding: 5px 73px 20px;
+    text-align: left;
+    width: 854px;
+
+}
+
+.page_subtitle{margin:0;padding:0 0 5px 50px;float:left;width:804px;font-size:18px;font-weight:bold;color:#0074AA;font-family: 'Calibri';background:url("../images/topdivider.png") no-repeat left bottom;}
+
+
+.account_selection{margin:10px 0;padding:0 50px;float:left;width:100%;}
+
+
+.account_selection select{margin:0 5px 0 0;padding:3px 0;width:140px;color:#0074AA;font-family: 'Calibri';font-size:14px;float:left;} 
+.subscription_content{margin:0;padding:0;float:left;width:704px;}
+#add_acc_button input{margin:0;padding:0;float:left;width:110px;height:35px;cursor:pointer;background:url("../images/add.jpg") no-repeat left top;border:0;}
+#delete_acc_button input{margin-left:10px;padding:0;float:left;width:110px;height:35px;cursor:pointer;background:url("../images/delete.jpg") no-repeat left top;border:0;}
+.accout_selection_wrap{margin:0;padding:0;float:left;width:150px;}
+.accout_selection_wrap span{color:#0074AA;font-family: 'Calibri';font-size:14px;margin:8px 0 0 0;float: left;}
+.subscription_form_fields{margin:0px 0 20px;padding:0 50px;float:left;width:100%;}
+.subscription_form_fields h1{font-size:18px;color:#0074AA;font-family: 'Calibri';float:left;margin:20px 0 0 0;border:0;}
+.form_input_section{margin:6px 0 !important;padding:0;float:left;width:100%;font-size:14px;color:#0074AA;font-family: 'Calibri';}
+.form_input_section .jqTransformRadioWrapper{margin:2px 5px 0 0 !important}
+
+.form_input_section_submit{margin:0px 0 20px !important;padding:0 0 0 15%;float:left;width:85%;}
+.form_input_section_submit #agreeInfo{float:left;color: #0074AA; font-family: 'Calibri';  font-size: 17px;    font-style: normal;    margin: 0;}
+
+
+
+
+.paymentform_payment .accout_selection_wrap{margin:0;padding:0;float:left;width:145px;}
+form.paymentform_payment .payment_content label {margin: 0 !important;}
+
+
+
+
+
+#subscription{margin:0 0 0 20px;padding:0;border:0;width:112px;height:37px;cursor:pointer;background:url("../images/next-btn.jpg") no-repeat left top;text-indent:-9999px;}
+#customForm{padding:0 !important;}
+
+.property_usa_text {
+    color: #0074AA;
+    font-family: 'Calibri';
+    font-size: 36px;
+    font-weight: normal;
+    margin: 0 0 0 80px;
+    padding: 0;
+    float:left;
+    text-align: center;
+    text-transform: uppercase;
+    width: 1000px;
+}
+.property_usa_text span{font-size:13px;text-transform:capitalize;display:block;}
+.property_usa_text a { text-decoration:none;color:#0074AA;}
+.form_input_section_submit .jqTransformCheckboxWrapper{  margin: 0 8px 0 5px !important;}
+.subscription_content label{width:16%; color: #0074AA;
+                            font-family: 'Calibri';
+                            font-size: 14px;
+                            text-align: left;}
+
+.property_usa_text h4{font-size:36px;font-weight:normal;font-family: 'Calibri';color:#439af2;margin:0 0 5px 0;}	
+#acc_submit{margin:20px 0 10px;text-indent:-99999px;padding:0;float:left;border:0;width:110px;height:35px;background:url("../images/save.jpg") no-repeat left top;cursor:pointer;}		
+#add_account #acc_submit{margin:10px 0 10px 155px;}
+/*styles for users display page */
+
+/* Pagination list styles */
+ul.fdtablePaginater
+{
+    display:table;
+    list-style:none;
+    padding:0;
+    margin:15px 5px 10px;
+    text-align:center;
+    height:2em;
+    width:auto;
+    float:right;
+
+}
+ul.fdtablePaginater li
+{
+    display:table-cell;
+    margin:0 4px;
+    color:#666;
+    list-style:none;
+    float:left;
+    -moz-user-select:none;
+    -khtml-user-select:none;
+}
+ul.fdtablePaginater li a.currentPage
+{
+    background:#0074AA  !important;
+    color:#fff;
+}
+ul.fdtablePaginater li a:active
+{
+    border-color:#222 !important;
+    color:#222;
+}
+ul.fdtablePaginater li a,
+ul.fdtablePaginater li div
+{
+    display:block;
+
+    font-size:1em;
+    color:#008FF6;
+    padding:2px 5px;
+    margin:0;
+    text-decoration:none;
+    outline:none;
+
+    font-family:georgia, serif;
+}
+ul.fdtablePaginater li div
+{
+    cursor:normal;
+    opacity:.5;
+    filter:alpha(opacity=50);
+}
+ul.fdtablePaginater li a span,
+ul.fdtablePaginater li div span
+{
+    display:block;
+
+}
+ul.fdtablePaginater li a
+{
+    cursor:pointer;
+}
+ul.fdtablePaginater li a:focus
+{
+    color:#333;
+    text-decoration:none;
+    border-color:#aaa;
+}
+.fdtablePaginaterWrap
+{
+    text-align:center;
+    clear:both;
+    text-decoration:none;
+}
+ul.fdtablePaginater li .next-page span,
+ul.fdtablePaginater li .previous-page span,
+ul.fdtablePaginater li .first-page span,
+ul.fdtablePaginater li .last-page span
+{
+    font-weight:bold !important;
+}
+/* Keep the table columns an equal size during pagination */
+td.sized1
+{
+    width:16em;
+    text-align:left;
+}
+td.sized2
+{
+    width:10em;
+    text-align:left;
+}
+td.sized3
+{
+    width:7em;
+    text-align:left;
+}
+tfoot td
+{
+    text-align:right;
+    font-weight:bold;
+    text-transform:uppercase;
+    letter-spacing:1px;
+}
+#visibleTotal
+{
+    text-align:center;
+    letter-spacing:auto;
+}
+* html ul.fdtablePaginater li div span,
+* html ul.fdtablePaginater li div span
+{
+    background:#eee;
+}
+tr.invisibleRow
+{
+    display:none;
+    visibility:hidden;
+}
+p.paginationText
+{
+    font-style:oblique;
+    width:100%;
+    float:left;
+    text-align:center;
+    margin:0 0 5px;
+    font-family: 'Calibri';
+    font-size:13px;
+    color:#1569C7;
+
+}
+.fdtablePaginaterWrap fdtablePaginatorWrapTop { display:none; }
+
+.welcome-msg{color: #0074AA;font-family: 'Calibri';font-size: 17px;font-weight: bold;margin: 5px 0 5px;padding: 0;}
+/* Pagination list style ends*/
+
+
+.welcome-msg_tenant{color: #0074AA;font-family: 'Calibri';font-size: 17px;font-weight: bold;margin: 5px 0 5px 50px;padding: 0;}
+
+
+
+/* styles for payment page */
+.errormsg{font-weight:bold;color:red;}
+.message{font-weight:bold;color:red;}
+#paymentform_content{margin: 0 0 25px; padding: 5px 110px 20px; width: 780px;text-align: center;}
+.payment_content{margin:0 10px 0 10px;padding:0;float:left;font-weight:normal;font-family: 'Calibri';color:#0074AA;font-size:18px;}
+form.paymentform_payment .payment_content{margin:0 0 10px}
+.payment_content .jqTransformRadioWrapper{margin: 5px 4px 0;}
+form.jqtransformdone .payment_content label{margin:0px 8px 0 0}
+.payment_month{margin:0 10px 0 10px;float:left;}
+.paymentform_payment .payment_month{margin:0 0px 0 5px !important;float:left;}
+form.paymentform_payment .payment_month label{font-weight:normal;font-family: 'Calibri';color:#0074AA;font-size:18px;margin:0px 5px 0 0}
+form.paymentform_payment .payment_month select {  margin: 0px !important;}
+form.jqtransformdone .payment_month label{font-weight:normal;font-family: 'Calibri';color:#0074AA;font-size:18px;margin:0px 8px 0 0}
+form.jqtransformdone .payment_month select{width:70px;margin:0 0 0 10px;}
+.payment_year{margin:0 0px 0 10px;float:left;}
+form.paymentform_payment .payment_year{margin:0 10px 0 10px;float:left;}
+form.jqtransformdone .payment_year label{font-weight:normal;font-family: 'Calibri';color:#0074AA;font-size:18px;margin:0px 8px 0 0}
+form.jqtransformdone .payment_year select{width:55px;margin:0 0 0 10px;}
+
+.units_box{margin:15px 0 0 0;padding:0;float:left;width:100%;}
+.units_box .unit_label{margin:0;padding:0;float:left;clear:both;font-weight:normal;font-family: 'Calibri';color:#0074AA;font-size:18px;}
+.units_box .property_label{margin:0;padding:0;float:left;clear:both;font-weight:normal;font-family: 'Calibri';color:#0074AA;font-size:18px;}
+.units_box .convenience_fee{padding:0;float:right;margin:0px;clear:both;font-weight:normal;font-family: 'Calibri';color:#0074AA;font-size:18px;}
+.units_box .late_fee{padding:0;float:right;margin:0px;clear:both;font-weight:normal;font-family: 'Calibri';color:#0074AA;font-size:18px;}
+.fee_cancel { float:left; }
+#cancel { float:right; background: url("../images/cancel.jpg") no-repeat scroll left top transparent; border: 0 none;  cursor: pointer;  height: 37px;   margin: 0 0 0 20px;    padding: 0;    text-indent: -9999px;   width: 112px !important; }
+.account_selection .units_box{margin:15px 0 50px;padding:0;float:left;width:100%;}
+.account_selection .units_box .unit_label{margin:0;padding:0;float:left;clear:both;font-weight:normal;font-family: 'Calibri';color:#0074AA;font-size:18px;}
+.account_selection .units_box .property_label{margin:0;padding:0;float:left;clear:both;font-weight:normal;font-family: 'Calibri';color:#0074AA;font-size:18px;}
+
+
+
+
+#payment{float:right; background: url("../images/next-btn.jpg") no-repeat scroll left top transparent; border: 0 none;  cursor: pointer;  height: 37px;   margin: 0 0 0 0px;    padding: 0;    text-indent: -9999px;   width: 112px;}
+form.paymentform_payment #payment{float:right; background: url("../images/next-btn.jpg") no-repeat scroll left top transparent; border: 0 none;  cursor: pointer;  height: 37px;   margin: 0 0 0 20px;    padding: 0;    text-indent: -9999px;   width: 112px !important;}
+
+.units_info{margin:0;padding:0;float:left;}
+.units_info_landlord{margin:0;padding:0;float:left;width:100%;}
+.fees_info{margin:0;padding:0;float:right;}
+
+
+
+/* styles for landlord payment page */
+
+.account_info{margin:0 20px 0 0 ;padding:0;float:left;text-align:left;font-weight:normal;font-family: 'Calibri';color:#0074AA;font-size:18px;}
+.account_info h5{font-weight:bold;font-family: 'Calibri';color:#0074AA;font-size:18px;margin:0 0 5px 0;}
+.account_info h4 { font-weight:normal;font-family: 'Calibri';color:#0074AA;font-size:21px;margin:0 0 5px 0;line-height: 21px;}
+.billing_address{margin:0 0px 0px 0 ;padding:0;float:right;text-align:left;font-weight:normal;font-family: 'Calibri';color:#0074AA;font-size:18px;}
+.billing_address h5{font-weight:bold;font-family: 'Calibri';color:#0074AA;font-size:18px;margin:0 0 0px 0}
+.account_desc{margin:25px 0 10px 0;padding:0;float:left;clear:both;text-align:right;width:100%;}
+.account_desc h4{font-weight:normal;font-family: 'Calibri';color:#0074AA;font-size:21px;margin:0 0 5px 0;line-height: 21px;}
+.account_desc h5{font-weight:bold;font-family: 'Calibri';color:#0074AA;font-size:18px;margin:25px 0 5px 0;}
+.account_desc_paymentconfirm{clear: none;float: right;margin: 0;padding: 0;text-align: right;width: 300px;}
+.account_desc_paymentconfirm h4{color: #0074AA;font-family: 'Calibri';font-size: 21px;font-weight: normal;line-height: 21px;margin: 0 0 5px;}
+.account_desc_paymentconfirm h5{color: #0074AA;font-family: 'Calibri';font-size: 18px;font-weight: bold;margin: 10px 0 20px;}
+.page_main_title{ font-family: 'Calibri';font-size: 20px; font-weight: bold;margin:0 0 15px 0;  color: #0074AA;}
+.account-verification-message{ float:right; width:254px; text-align:left;margin:10px 0;padding:0;font-size:11px;font-style:italic; color: #0074AA;}
+.account-verification-message-landlord{ float:right; /*width:254px;*/ text-align:left;margin:10px 0;padding:0;font-size:11px;font-style:italic; color: #0074AA;}
+.confirmation_navigation{margin:5px 0 15px 0;padding:0;float:right;width:250px;clear:both;}
+.confirmation_navigation_outer{margin:0;padding:0;float:left;width:100%;clear:both;}
+#payment_confirmation{float:left; background: url("../images/paynow_btn.jpg") no-repeat scroll left top transparent; border: 0 none;  cursor: pointer;  height: 35px;   margin: 0px;    padding: 0;    text-indent: -9999px;   width: 110px;}
+#confirmation{float:left; background: url("../images/back-btn.jpg") no-repeat scroll left top transparent; border: 0 none;  cursor: pointer;  height: 35px;   margin:1px 25px 0 0px;    padding: 0;    text-indent: -9999px;   width: 112px;}
+#access{float:left; background: url("../images/submit_btn.jpg") no-repeat scroll left top transparent; border: 0 none;  cursor: pointer;  height: 35px;   margin:20px 0px 0 7px;    padding: 0;    text-indent: -9999px;   width: 112px;}
+
+
+
+/* styles for tenant registration form */
+.tenant_registrationform{margin:0 0 0 150px;padding:0;width:630px;float:left;}
+.tenant_form_inputs{margin:6px 0;padding:0;float:left;width:100%;}
+.tenant_form_inputs label{color:#0074AA;font-size: 16px;font-family: 'Calibri';float:left;width:auto;}
+#tenantForm .tenant_form_inputs label{width:100%;text-align:left;}
+#tenantForm .tenant_form_inputs_firstname .property_input label{width:100%;text-align:left;}
+#tenantForm .tenant_form_inputs_middlename label{width:100%;text-align:left;}
+.tenant_form_inputs input[type="text"]{float:left;display:block;background-color:white;clear:both;height:22px;line-height:22px;margin:5px 0 5px 0;font-size:13px;font-family: 'Calibri';color:#0074AA;width:235px;border:1px solid #01A7E5;border-radius:3px;}
+.tenant_form_inputs input[type="password"]{float:left;clear:both;height:22px;line-height:22px;margin:5px 0 5px 0;font-size:13px;font-family: 'Calibri';color:#0074AA;width:235px;border:1px solid #01A7E5;border-radius:3px;behavior: url(../css/PIE.htc);}
+.property_select{margin:0 30px 0 0;padding:0;float:left;width:190px;}
+
+.property_select select{margin:5px 0 0;padding:0;float:left;clear:both;width:185px;height:25px;color:#0074AA;font-size: 16px;font-family: 'Calibri';}
+.property_select span{color: #1569C7;float: left;font-family: 'Calibri';font-size: 16px;margin: 8px 0 0;}
+
+.units_box{margin:0;padding:0;float:left;width:170px;}
+.units_box label{color:#0074AA;font-size: 16px;font-family: 'Calibri';float:left;width:auto;}
+.units_box input{float:left;clear:both;border:1px solid #01A7E5;border-radius:3px;behavior: url(../css/PIE.htc);height:22px;line-height:22px;margin:5px 0 5px 0;font-size:13px;font-family: 'Calibri';color:#0074AA;width:65px !important;;}
+.tenant_form_inputs_middlename #middleintialInfo{margin:10px 0 0 5px;float:left;}
+
+
+.tenant_form_inputs_firstname{margin:6px 0;padding:0;float:left;width:100%;}
+.tenant_form_inputs_firstname .property_input{margin:0;padding:0;float:left;width:240px;}
+.tenant_form_inputs_firstname .property_input label{color:#0074AA;font-size: 16px;font-family: 'Calibri';float:left;width:auto;}
+.tenant_form_inputs_firstname .property_input input[type="text"]{float:left;clear:both;height:22px;line-height:22px;margin:5px 0 5px 0;font-size:13px;font-family: 'Calibri';color:#0074AA;width:235px;border:1px solid #01A7E5;border-radius:3px;behavior: url(../css/PIE.htc);}
+
+
+.tenant_form_inputs_middlename{margin:0 0 0 0px;padding:0 0 0 30px;float:left;}
+.tenant_form_inputs_middlename label{color:#0074AA;font-size: 16px;font-family: 'Calibri';float:left;width:auto;}
+.tenant_form_inputs_middlename input[type="text"]{float:left;clear:both;border:1px solid #01A7E5;border-radius:3px;behavior: url(../css/PIE.htc);height:22px;line-height:22px;margin:5px 0 5px 0;font-size:13px;font-family: 'Calibri';color:#0074AA;width:55px;}
+.tenant_form_inputs textarea{color: #0074AA;margin:5px 0;padding:0;float:left;width:520px;resize:none;clear:both;border:1px solid #01A7E5;border-radius:3px;behavior: url(../css/PIE.htc);height:100px;}
+
+.tenant_form_inputs_captcha{   float: left;  margin: 6px 0;  padding: 0;  width: 100%;}
+.tenant_form_inputs_captcha label{ clear: both;    color: #0074AA;    float: left;    font-family: 'Calibri';    font-size: 14px;    margin: 20px 0 0 5px;}
+.tenant_form_inputs_captcha #captcha-form{margin:0px;float:left;width:220px;}
+.tenant_form_inputs_captcha .jqTransformInputWrapper{margin:15px 0 0 30px;}
+
+
+.tenant_form_inputs_captcha #change-image { clear: both;  color: #0074AA;  float: none; display:block;text-align:left; font-family: 'Calibri';  font-size: 13px;   margin: 20px 0 0 5px;    text-decoration: none;}
+.chekwrap{padding:0 0 0 0%;}
+.chekwrap .jqTransformCheckboxWrapper {
+    margin: 3px 8px 0 5px !important;
+}
+
+#tenant_register{background:#0080ff;padding:0px;margin:15px 0 0 0;color:#fff;text-align:center;font-size:14px;float:left;clear:both;width:220px;height:26px;}
+#tenant_register span span{color:#fff;font-size:14px;font-family: 'Calibri';   font-size: 16px;padding:0;    line-height: 26px;}
+#tenant_register span{float:none;}
+.tenant_form_inputs span{font-size:11px;font-style:italic;margin:13px 0 0 5px;float:left;}
+#captchaInfo{float:left;font-size:13px;font-style:normal;margin:0px 0 0 0px;}
+#propertyInfo{margin:0px;}
+
+/* styles of property page */
+
+
+.menu_container{margin:30px 0 0 20px;padding:0;float:left;width:643px;}
+.menu_container ul{margin:0;padding:0;float:left;}
+.menu_container ul li{margin:0 5px;padding:0;font-size:12px;font-weight:bold;color:#03323a;float:left;line-height: 20px;}
+.menu_container ul li a{color:#03323a;text-decoration:none;font-size:19px;font-family: 'GeosansLight';font-weight:normal;}
+
+/* Hide this line for the header adjustment in tenant side /22 jan13/
+.property-header .property_usa_text{margin:0px 250px 0 0} */
+.property-header{margin:0 0 10px 0;float:left;width:964px;/*padding:20px 0px 0;background:url("../images/property_header_bg.jpg") no-repeat center top;*/}
+.property-header .logo{margin:0 0 0 20px;padding:0;float:left;}
+
+
+
+
+
+
+#property_content { float: left; margin: 0 0 25px 180px;  padding: 10px 25px 20px;  text-align: left;  width: 740px;	background:url("../images/property_header_divider.jpg") no-repeat center top;}
+.property_content_inner{margin:0;padding:0;width:740px;float:left}
+.pagetitle{margin:0 0px 20px 50px;padding:0;font-size:36px;color:#0074AA; font-family: 'Calibri';font-weight:normal; }
+.page_innertitle{margin:0 0px 20px 50px;padding:0;font-size:22px;color:#0074AA; font-family: 'Calibri';font-weight:normal;}
+.property_accout_selection_wrap{float:left;margin: 0 20px 0 0;padding: 0;width: 170px;}
+.tenant_accout_selection_wrap{float:left;margin: 0;padding: 0;width: 170px;}
+.property_accout_selection_wrap select {color: #0074AA; float: left;  font-family: 'Calibri';    font-size: 16px;    margin: 0 5px 0 0;    padding: 3px 0;    width: 170px;}
+.tenant_accout_selection_wrap select { color: #0074AA; float: left;  font-family: 'Calibri';    font-size: 16px;    margin: 0 5px 0 0;    padding: 3px 0;    width: 170px;}
+.tenant_accout_selection_wrap span {color: #0074AA; float: right; font-family: 'Calibri'; font-size: 16px;   margin: 8px 0 0;}
+.property_accout_selection_wrap span {color: #0074AA; float: right; font-family: 'Calibri'; font-size: 16px;   margin: 8px 0 0;}
+
+.rounded_box_bg{margin:15px 0;padding:0;float:left;width:732px;background:#e1f8ff;border-radius:10px;box-shadow:5px 6px 4px #bababa;behavior: url(../css/PIE.htc);padding-bottom:20px;}
+#property_search{float:left;margin:0;padding:0;width:100%;}
+#property_search #theTable{margin:0;padding:0;width:100%;}
+#property_search #theTable td, th{padding:15px 20px; color: #0074AA; font-family: 'Calibri'; font-size: 16px;}
+#property_search #theTable th{font-weight:normal;}
+
+#property_list #theTable1{margin:0;padding:0;width:100%;}
+#property_list #theTable1 td, th{padding:15px 20px; color: #0074AA; font-family: 'Calibri'; font-size: 16px;}
+/*#property_list #theTable1 th{font-weight:normal;}*/
+#property_list #theTable1 th{font-weight:bold;}
+
+
+
+.property{float:left;margin:0 0 10px 35px;padding:0;width:770px;}
+.property_tenant{float:left;padding:0;width:770px;}
+.property #theTable{margin:0;padding:0;width:100%;}
+.property #theTable td, th{padding:10px 20px; color: #0074AA; font-family: 'Calibri'; font-size: 16px;}
+.property #theTable th{font-weight: bold;}
+
+
+
+/*----  Begin New pagination style   */
+
+.theTable{margin:0;padding:0;width:100%;}
+.theTable td, th{padding:10px 20px; color: #0074AA; font-family: 'Calibri'; font-size: 16px;font-weight:normal;}
+.theTable th{font-weight: bold;}
+.pagingborder { border-top:4px solid #005871;height:4px;}
+.pagination_btn{float:right;color:#666666;margin:0 4px;}
+.pagination_btn span
+{
+    color: #008FF6;
+    float: left;
+    height: 15px;
+    padding: 2px 5px;
+    font-family: georgia,serif;
+    font-size: 14px;
+    text-align: center;
+    cursor:pointer;
+    margin: 5px;
+    outline: medium none;
+}
+.pagingselected{background: none repeat scroll 0 0 #0074AA !important;color: #FFFFFF !important;}
+
+
+
+/*----  End New pagination style   */
+
+.table-border{border-bottom:4px solid #005871;}
+.row-border{border-bottom:1px solid #00baff}
+
+
+.export_btn_wrap{margin:10px 0 20px;padding:0 5px 0 0;float:right;width:250px;}
+.export_btn{float:left; background: url("../images/export.jpg") no-repeat scroll left top transparent; border: 0 none;  cursor: pointer;  height: 37px;   margin: 0 0 0 20px;    padding: 0;    text-indent: -9999px;   width: 112px;}
+#print_property{float:right; background: url("../images/print.jpg") no-repeat scroll left top transparent; border: 0 none;  cursor: pointer;  height: 35px;   margin: 0 0 0 8px;    padding: 0;    text-indent: -9999px;   width: 110px;}
+#home_button{float:right; background: url("../images/paymenthome.png") no-repeat scroll left top transparent; border: 0 none;  cursor: pointer;  height: 35px;   margin: 0 0 0 8px;    padding: 0;    text-indent: -9999px;   width: 110px;}
+#property_content .page_subtitle {background: url("../images/property_header_divider.jpg") no-repeat scroll left bottom transparent;    color: #0074AA;   float: left;    font-family: 'Calibri';    font-size: 18px;    font-weight: bold;    margin: 0;    padding: 0 0 5px 70px;    width: 700px;}
+#add_account{margin:20px 0 20px 0;padding:0 6%;float:left;width:90%;}
+#add_account .form_inputs label{width:23%;text-align:right;color: #0074AA;  float: left;  font-family: 'Calibri';   font-size: 14px;    margin: 6px 10px 6px 0;}
+#add_account .form_inputs input[type="text"]{border:1px solid #01A7E5;border-radius:3px;width:220px;height:20px;margin:2px 0 0 0;float:left;font-size:13px;color:#01A7E5;font-family: 'Calibri';behavior: url(../css/PIE.htc);padding:0 2px;}
+#add_account .form_inputs .accout_selection_wrap{width:225px;margin:0 0 0 25px}
+#add_account .form_inputs .accout_selection_wrap select{width:180px;margin:4px 0 0 0;color: #0074AA;  float: left;  font-family: 'Calibri';}
+#add_account .form_inputs .accout_selection_wrap span{float:right;font-style:normal;margin:1px 0 0 0;}
+#add_account .form_inputs input#zip{width:60px;}
+#add_account .form_inputs{color: #0074AA; font-family: 'Calibri';   font-size: 14px;   }
+#property_submit{float:left; background: url("../images/add.jpg") no-repeat scroll left top transparent; border: 0 none;  cursor: pointer;  height: 35px;   margin: 4px 0 0 20px;    padding: 0;    text-indent: -9999px;   width: 110px;}
+.radion_btns{margin:0;padding:0;float:left;}
+
+
+.footer p.need-help-text{margin:15px 0 30px 25px;padding:0;font-size:15px;color: #0074AA; font-family: 'Calibri';width:100%;float:left;clear:both;text-align:center; }
+.need-help-text a{text-decoration:none;font-size:15px;font-weight:bold;color: #0074AA; font-family: 'Calibri';}
+#townInfo{float:left;clear:both; margin: 0 0 0 16%;}
+
+.need-help-text { clear: both; color: #0074AA; float: left; font-family: 'Calibri';   font-size: 15px;  margin: 35px 0 10px;   padding: 0;    text-align: center;   width: 100%;}
+.need-help-text a { color: #0074AA;  font-family: 'Calibri';   font-size: 15px;    font-weight: bold;    text-decoration: none;}
+
+
+/* styles for landlord home page */
+
+#landlordhome_content { float: left; margin: 0 0 10px 180px;  padding: 10px 25px 20px;  text-align: left;  width: 770px;	background:url("../images/property_header_divider.jpg") no-repeat center top;}
+.landlordhome_content_inner{margin:0;/*padding:0 50px;*/width:712px;float:left; }
+.rounded_box_bg_dark {background:#bcedff;border-radius: 10px 10px 10px 10px;  box-shadow: 5px 6px 4px #BABABA;  float: left;   margin:0 0 15px 0;   padding: 0 0 20px 0;    width: 670px;}
+.rounded_box_bg_dark_payment_landlord {background:#bcedff;border-radius: 10px 10px 10px 10px;  box-shadow: 5px 6px 4px #BABABA;  float: left;   margin:0 0 15px 0;   padding: 0;    width: 736px;padding-bottom:20px;}
+.rounded_box_bg_dark_payment_tenant {background:#bcedff;border-radius: 10px 10px 10px 10px;  box-shadow: 5px 6px 4px #BABABA;  float: left;   margin:0 0 15px 0;   padding: 0;    width: 770px;padding-bottom:20px;}
+.rounded_box_bg_dark_payment_tenantpayment {background:#bcedff;border-radius: 10px 10px 10px 10px;  box-shadow: 5px 6px 4px #BABABA;  float: left;   margin:0 0 15px 0;   padding: 0;    width: 770px;padding-bottom:20px;}
+.property_activity_title{color: #0074AA; font-family: 'Calibri';   font-size: 18px;margin:5px 0;font-weight: normal;}
+
+#property_activity{float:left;margin:0;padding:0;width:100%;}
+#property_activity #theTable{margin:0;padding:0;width:100%;}
+#property_activity #theTable td, th{padding:10px 20px; color: #0a6c90 !important; font-family: 'Calibri'; font-size: 15px;text-align:center;font-weight:bold;}
+#property_activity #theTable th{font-weight:bold;padding:5px 20px;text-align:left;color: #0074AA !important;}
+.autopay_wrap{margin:0px 160px;/*margin:0px auto;padding:0 30px;float:left;*/width:550px;text-align:center;}
+.autopay_wrap_landlord{/*margin:0px 80px;margin:0px auto;padding:0 30px;*/float:left;width:670px;text-align:center;}
+.autopay_wrap .autopay{margin:5px 0 0 0;padding:0;float:left;}
+.autopay_wrap_landlord .autopay{margin:5px 0 0 0;padding:0;display: inline-block;height: 55px;}
+.autopayactive{margin:15px 10px 0;display: inline-block;vertical-align:top;}
+.autopayactive_tenant{margin:15px 10px 0;float:left;}
+.autopay_wrap ul{margin:30px 0 0 10px;padding:0;float:left;}
+.autopay_wrap ul li{margin:0 5px;padding:0;font-size:14px;font-weight:bold;color:#0074AA;font-family: 'Calibri';float:left;}
+.autopay_wrap ul li a{font-size:14px;font-weight:bold;color:#0074AA;font-family: 'Calibri';text-decoration:none;}
+.autopay_wrap_landlord ul{margin:30px 0 0 10px;padding:0;display: inline-block;vertical-align:top;}
+.autopay_wrap_landlord ul li{margin:8px 5px;padding:0;font-size:14px;font-weight:bold;color:#0074AA;font-family: 'Calibri';float:left;}
+.autopay_wrap_landlord ul li a{font-size:14px;font-weight:bold;color:#0074AA;font-family: 'Calibri';text-decoration:none;}
+#townInfo{float:left;clear:both;}
+/*.tenant_form_inputs span{font-size:11px;font-style:italic;}*/
+
+.messenger-wrap{margin:20px 0 0;padding:0;float:left;width:100%;}
+.messenger-links img{float:left;margin:0 10px 0 5px;}
+.messenger-links ul{margin:8px 15px 0 10px;padding:0;float:left;}
+.messenger-links ul li{margin:0 5px;padding:0;font-size:14px;font-weight:bold;color:#0074AA;font-family: 'Calibri';float:left; cursor:pointer;}
+.messenger-links ul li a{font-size:14px;font-weight:bold;color:#0074AA;font-family: 'Calibri';text-decoration:none;}
+.message-count{margin:8px 0px 0px 0px;padding:0;float:left;color: #0074AA;font-size: 14px;font-weight: bold;font-family: 'Calibri';}
+.message-count a{text-decoration:none;font-size:14px;font-weight:normal;color:#0074AA;font-family: 'Calibri';}
+.message-count a span{font-size:14px;font-weight:bold;color:#0074AA;font-family: 'Calibri';margin:0 5px 0 0;}
+
+.messenger-box{margin:10px 0;padding:0;float:left;width:736px;border:1px solid #008ff6;border-radius: 10px 10px 10px 10px;background-color:#BCEDFF;}
+.messenger-box #theTable td, th {
+    color: #0074AA !important;
+    font-family: 'Calibri';
+    font-size: 16px;
+    padding: 10px 20px;
+    text-align: left;
+}
+.rent-info{margin:5px 0;padding:0;float:left;width:100%;}
+#rent_textbox{border:1px solid #0074AA;border-radius:4px;width:120px;height:20px;margin:2px 0 10px 3px;font-size:13px;color:#0074AA;font-family: 'Calibri';behavior: url(../css/PIE.htc);}
+.rent-info label{margin:0 5px 0 0;padding:0;font-size:18px;color:#0074AA;font-family: 'Calibri';}
+.rent-info span{margin:0 5px 0 0;padding:0;font-size:18px;color:#0074AA;font-family: 'Calibri';}
+#edit_rent_button{margin:0px 0 25px 0;padding:0;float:left;width:100%;}
+#save_rent_button{margin:0px 0 25px 0;padding:0;float:left;width:100%;}
+#save_rent_button .savebtn{float:left;}
+.messenger-box #theTable{margin:0;padding:0;float:left;width:100%;}
+.messenger-box p{font-size:14px;font-weight:bold;color:#0074AA;font-family: 'Calibri';margin:0 5px 0 0;float:left;}
+.messenger-box p input[type="checkbox"]{margin:2px 0 0 5px;}
+.messenger-box a{text-decoration:none;font-size:16px;font-weight:bold;color:#0074AA;font-family: 'Calibri';margin:2px 0 0 10px;display: inline-block;}
+#landlordhome_content .page_subtitle { background: url("../images/property_header_divider.jpg") no-repeat scroll left bottom transparent;margin:30px 0 10px 0;}
+.messenger-links .property_accout_selection_wrap{width:170px;}
+.messenger-links .property_accout_selection_wrap label{float:left;font-size:14px;font-weight:normal;color:#0074AA;font-family: 'Calibri';margin:0 10px 0 0;}
+.messenger-box #selectall{float:right;}
+.bts-wrap{float:right;margin:0px 0 10px 0;padding:0;width: 262px;}
+.bts-wrap_landlord{float:right;margin:0 100px 10px 0;padding:0;width: 262px;}
+.bts-wrap_tenantpayment{float:right;margin:0px 0px 10px 0;padding:0;width: 262px;}
+.bts-wrap_landlordhome{float:right;margin:0px 40px 10px 0;padding:0;width: 262px;}
+.bts-wrap_landlordhome #property_submit {margin: 0 0 0 20px; background: url("../images/submit_btn.jpg") no-repeat scroll left top transparent;}
+.bts-wrap #property_submit {margin: 0 0 0 20px; background: url("../images/submit_btn.jpg") no-repeat scroll left top transparent;}
+#export-btn{float:left; background: url("../images/export.jpg") no-repeat scroll left top transparent; border: 0 none;  cursor: pointer;  height: 37px;   margin: 0 0 0 20px;    padding: 0;    text-indent: -9999px;   width: 112px;}
+.billing_notofication{margin:5px 0;padding:0;float:left;width:768px;border:0;}
+.billing_notofication td{color: #0074AA;vertical-align:middle;font-family: 'Calibri';font-size: 16px;padding: 10px 20px;text-align: center;font-weight:normal;}
+.billing_notofication td span{font-weight:bold;float:left;margin-left:30px;}
+.title_border{margin:0;padding:0;background:url("../images/property_header_divider.jpg") no-repeat scroll left bottom transparent;}
+.paynow_btn{margin:0;padding:0;width:110px;height:35px;background:url("../images/paynow_btn.jpg") no-repeat left top; display: inline-block;}
+
+
+/* my profile */
+
+.landlordhome_content_inner .pagetitle {margin:0 0 20px 0px;}
+.landlordhome_content_inner .table_cart{margin:0px 0 10px 0;padding:0;float:left;width:65%;}
+.landlordhome_content_inner .table_cart td{color: #0074AA;    font-family: 'Calibri';    font-size: 19px;}
+.edit_btn{margin:0 15px 0 0;padding:0;cursor: pointer;float:left;width:110px;height:35px;background:url("../images/edit.jpg") no-repeat left top;border:0;}
+.add_btn{margin:0 15px 0 0;padding:0;cursor: pointer;float:left;width:110px;height:35px;background:url("../images/add.jpg") no-repeat left top;border:0;}
+.change_pass{margin:6px 0 0 0;padding:0;float:left;width:180px;height:35px;background:url("../images/change_password.jpg") no-repeat left top;}
+#property_activity #theTable td.price-column{text-align:left;padding:0 0 0 85px;}
+#property_activity #theTable td.price-column-total{text-align:left;padding:0 0 0 38px;}
+
+
+/*styles for paymentsummary */
+.detailed_view{margin:0 0 30px 0;padding:0 0 0 0px;float:left;}
+.detailed_view h4{margin:0 0 5px;padding:0;font-size:19px;font-weight:bold;color:#0074AA;  font-family: 'Calibri';}
+.month-year-select{margin:0 0 0 15px;padding:0;float:left;}
+.month-year-select label{color: #0074AA;float: left;font-family: 'Calibri';font-size: 16px;margin: 2px 0 0;}
+.month-year-select select{color: #0074AA;float: left;font-family: 'Calibri';font-size: 16px;margin: 0px 15px 0 5px;width:60px;}
+
+.month-year-select_tenant{margin:0;padding:0;float:left;}
+.month-year-select_tenant label{color: #0074AA;float: left;font-family: 'Calibri';font-size: 16px;margin: 2px 0 0;}
+.month-year-select_tenant select{color: #0074AA;float: left;font-family: 'Calibri';font-size: 16px;margin: 0px 15px 0 5px;width:60px;}
+
+.detailed_view_account{margin:0 0 25px 0;padding:0 50px;float:left;width:635px;}
+.detailed_view_account h4{margin:0 0 5px;padding:0;font-size:19px;font-weight:bold;color:#0074AA;  font-family: 'Calibri';}
+.detailed_view_account .month-year-select{margin:0 0 0 0px;padding:0;float:left;width:560px;}
+.detailed_view_account .month-year-select label{color: #0074AA;  width: auto;float: left;font-family: 'Calibri';font-size: 16px;margin: 2px 0 0;}
+.detailed_view_account .month-year-select select{color: #0074AA;float: left;font-family: 'Calibri';font-size: 16px;margin: 0px 15px 0 5px;width:60px;}
+
+
+#ajax_account .rounded_box_bg_dark #theTable td{text-align:left;}
+.landlordhome_content_inner .rounded_box_bg { background: none repeat scroll 0 0 #E1F8FF;  border-radius: 10px 10px 10px 10px;  box-shadow: 5px 6px 4px #BABABA;  float: left;   margin: 15px 0;   padding: 0;    width: 670px;}
+.landlordhome_content_inner #property_search #theTable td, th{/*text-align:center;*/}
+.price_total{width:120px;padding:15px 10px 0 0;float:left;color: #0074AA;float: right;font-family: 'Calibri';font-size: 16px;text-align:right;}
+#landlordhome_content .page_subtitle_summary {background: url("../images/property_header_divider.jpg") no-repeat scroll left bottom transparent;  margin: 5px 0 10px;  color: #0074AA;    float: left;   font-family: 'Calibri';    font-size: 18px;    font-weight: bold;   padding: 0 0 5px 36px; width: 770px;}
+.due-text{text-decoration:none;margin:0;padding:0;font-size:16px;font-family: 'Calibri';color: #ff0000;font-weihgt:bold;}
+.notetext{ color: #ff0000;float: left;font-family: 'Calibri';font-size: 13px;padding: 0 5px 0 0; text-align: right;  width: 665px;font-weight:normal;}
+.account_selection_summary{ float: left; margin: 10px 0; padding: 0;  width: 365px;}
+.account_selection_summary .month-year-select{margin:10px 0px 0 0;float:right; padding: 0 5px 0 0;}
+.account_selection_summary .month-year-select select{ margin: 0 0px 0 5px;width:80px;}
+.account_selection_summary .month-year-select label{margin:0 0 0 20px;}
+.late_fee_update{margin:5px 0 10px 10px;padding:0 0 0 5px;float:left;width:290px;}
+.radiobtn-box{margin:0;padding:0;float:left;font-family: 'Calibri';font-size: 18px;font-weight:normal;color:#0074AA;}
+.radiobtn-box input[type="radio"]{margin:6px 5px 0 0;padding:0;float:left;}
+.updatebtn{margin:0;padding:0;float:right;background:url("../images/update.jpg") no-repeat left top;width:110px;height:35px}
+#edituser{margin:10px 0 0 0;padding:0;float:left;background:url("../images/update.jpg") no-repeat left top;width:110px;height:35px;border:0;}
+.edituser{margin:10px 0 0 10px !important;padding:0;float:left;background:url("../images/update.jpg") no-repeat left top;width:110px;height:35px;border:0;}
+#canceluser{margin:10px 0 0 7px;padding:0;float:left;background:url("../images/cancel.jpg") no-repeat left top;width:110px;height:35px;border:0;}
+.rent-due-section{margin:5px 0;padding:0;float:left;width:415px;}
+.email_notification { width:593px !important; }
+.remainder { width:256px !important; }
+.remainder_TL { width:256px !important; margin-top:21px;  }
+.rent-due-section p{color: #0074AA;font-family: 'Calibri';font-size: 16px;font-weight:normal;float:left;width:135px;}
+.rent-due-section label{float:left;color: #0074AA;font-family: 'Calibri';font-size: 16px;font-weight:normal;margin:0 0 0 5px}
+.rent-due-section p select{margin:0 0 0 5px;padding:3px 0;width:45px;float:right;color:#0074AA;}
+.rent-due-section p span{float:right;clear:both;margin:4px 0 0;}
+.savebtn{margin:0;padding:0;float:right;width:110px;height:35px;background:url("../images/save.jpg") no-repeat left top;border:0;cursor: pointer;}
+.rent-due-section p input[type="text"]{width:50px;margin:0 5px;color:#ff0000;font-size:14px;font-family: 'Calibri';float:right}
+.italize{font-size:13px;font-style:italic;color: #0074AA;font-family: 'Calibri';}
+
+
+#inner_outerwrap .loggedfooter {width: 1000px; float: left;  margin: 0; text-align: center;}
+.loggedfooter .footer-dock {margin: 0 40px 0 0;}
+.loggedfooter .footer-nav-icons {margin: 0px 0 0 45px;  padding: 0;}
+.loggedfooter p {color: #016B9F;font-family: 'Calibri';font-size: 12px;margin: 0; padding: 0;}
+
+/* changes */
+/* need to reduce the image width by 25 ps property_header_divider.jpg */
+
+#landlordhome_content {
+    background: url("../images/property_header_divider.jpg") no-repeat scroll left top transparent;
+    float: left;
+    margin: 0 0 10px 180px;
+    padding: 10px 0px 20px;
+    text-align: left;
+    width: 770px;
+}
+
+.landlordhome_content_inner {
+    float: left;
+    margin: 0 0 10px 50px;
+    /*padding: 0 50px;*/
+    width: 712px;
+}
+
+/* styles for auto pay page */
+
+.autopay_btn{margin:6px 0 0;padding:0;display:inline-block;text-align:center;height:45px;}
+.autopay_cancel_tenant
+{
+    color: #0074AA;
+    cursor: pointer;
+    float: left;
+    font-size: 27px;
+    margin: 22px 0 0 10px;
+    text-decoration: none;
+}
+.autopayactive_btn_tenant{margin:15px 0 0 20px;padding:0;float:left;}
+.autopayactive_btn{margin:15px 0 0 20px;padding:0;display:inline-block;vertical-align:top;}
+.policy_box{margin:10px 0;padding:10px 10px 10px 0;width: 665px;float:left;overflow-y:scroll;height:154px;}
+.policy_box p{color: #0074AA;font-family: 'Calibri';font-size: 16px;font-weight:normal;line-height:24px; margin-bottom: 5px;}
+.enroll_box{margin-bottom: 30px;margin-left: 50px;margin-top: 10px;float:left;width:685px;}
+.enroll_box label{margin: 5px 0 0;;padding:0;float:left;font-size:15px;font-weight:bold;color: #0074AA;font-family: 'Calibri';}
+.btns_box{margin:0 0 0 6px;padding:0;float:left; text-align: center;}
+.btns_box label{color: #0074AA;font-family: 'Calibri';font-size: 14px;font-weight:bold;margin:8px 0 0;display:inline-block;}
+.btns_box input[type="checkbox"]{vertical-align:top;float:left;margin:10px 10px 0 0}
+.autopay_select{margin:0;padding:0;float:left;}
+.autopay_select label{color: #0074AA;font-family: 'Calibri';font-size: 16px;font-weight:normal;float:left;}
+.autopay_select select{margin:0 0 0 5px;color: #0074AA;padding:3px 0;float:left;width:90px;}
+.autopay_select span{float:right;margin:3px 0 12px 24px;color: #0074AA;font-family: 'Calibri';font-size: 16px;font-weight:normal;}
+
+/* pagination styles */
+
+.fdtablePaginatorWrapTop{display:none;}
+.scroller-div{height:190px;overflow:auto;}
+.scrollouter{margin:0;padding:0;float:left;width:100%;height:208px;overflow:auto;}
+.success_msg{margin:10px 0;padding:10px 15px 10px 44px;background:#00BAFF url("../images/tick_img.jpg") no-repeat 15px 12px;color:#fff;width:91%;text-align:left;font-size:18px;font-family: 'Calibri';float:left;}
+
+.payment_msg { float: left; margin-left: 450px; }
+.payment_msg h2 { color: #439AF2;font-size: 20px;margin-top: 120px;margin-bottom: 120px;}
+.payment_msg_success { float: left; margin-left: 250px;width:600px; }
+.payment_msg_success h2 { color: #439AF2;font-size: 17px;font-weight: bold;margin-top: 120px;margin-bottom: 120px;}
+
+.CancelBtnsV{ float: left; height: auto;margin:80px 0 0 -60px;text-align: center; width: 770px;}
+
+.CancelBtnsV p{ text-align:center; font-size:14px; color: #0074AA; margin:10px 0px 0px 0px;}
+.CancelBtnsV p a{ color: #0074AA; font-weight:bold; text-decoration: none}
+
+.CancelBtnsV .Conimg{/*margin:0px 0px 0px 137px; float:left*/}
+
+.Clrs{ clear:both;}
+.Remidbtn_TL{margin-top:25px !important;}
+
+
+
+.savebtn_TL{margin:20px 0px 0px 0px;padding:0;float:right;width:110px;height:35px;background:url("../images/save.jpg") no-repeat left top;border:0;cursor: pointer;}
+
+/*.property-header_landlord .property_usa_text{margin:0px 250px 0 0}
+.property-header_landlord .property_usa_text{margin:0px 240px 0 0}*/
+.property-header_landlord{margin:0 0 10px 0;float:left;width:964px;/*padding:20px 0px 0;background:url("../images/property_header_bg.jpg") no-repeat center top;*/}
+.property-header_landlord .logo{margin:0 0 0 20px;padding:0;float:left;}
+
+.MinsHieght{ min-height:60px !important; float:right; width:700px; clear:both}
+.changedcolor { color: #0074AA !important;/*width: 220px;*/height: 20px; }
+.pass_title{  color: #0074AA;font-family: 'Calibri'; font-size: 36px; font-weight: normal;float:left;margin: 0 10px 20px 32px;   padding: 0; width:auto;}	
+.pass_box{background: url("../images/property_header_divider.jpg") no-repeat scroll left top transparent; float: left; height: auto; padding-top: 20px; width: 770px;}
+.footer-container{ float: left; margin-left:auto; margin-right:auto;text-align: center; width: 1000px;}
+/*.home-btn{float: left;padding-bottom: 5px; padding-right: 75px;text-align: right; width: 880px;}*/
+.home-btn{float: left;padding-bottom: 5px; text-align: right; width: 950px;}
+.home-btn2{position: relative;text-align: right;width: auto;float: right; margin-top: 26px;}
+.home-btn a{text-decoration:none; border:none;}
+.property_usa_text_payment {
+    color: #0074AA;
+    font-family: 'Calibri';
+    font-size: 36px;
+    font-weight: normal;
+    margin-top:70px;
+    padding: 0;
+    float:left;
+    text-align: center;
+    text-transform: uppercase;
+    width: 1000px;
+}
+.property_usa_text_payment span{font-size:13px;text-transform:capitalize;display:block;}
+.property_usa_text_payment a { text-decoration:none;color:#0074AA;}
+#table_scroll_propertydetail td{ padding:15px 20px;}
+
+.paymenthistory_td{width:135px;text-align:center;padding-left: 5px !important;}
+.paymenthistory_unit{width:30px;text-align:left;padding-left:10px !important;}
+.paymenthistory_code{width:99px;text-align:center;}
+.paymenthistory_th{width:80px;}
+.paymenthistory_th_unit{width:30px;padding-left:25px;}
+.paymenthistory_th_date{width:106px;padding-right:20px;}
+.paymenthistory_th_type{width:105px;padding-right:25px;}
+.paymenthistory_th_code{padding-right:2px;}
+.form_input_section_submit_subscription{margin:25px 0 20px !important;float:left;width:85%;}
+.form_input_section_submit_subscription #agreeInfo{float:left;color: #0074AA;font-family: 'Calibri';font-size: 17px;font-style: normal;margin: 5px 0 0;}
+.max_words_tenant{	float: right !important;    font-size: 14px;    font-style: normal;    margin-right: 10px;    margin-top: 0;}
+.tenant_form textarea {border: 1px solid #01A7E5;border-radius: 3px 3px 3px 3px;clear: both;color: #0074AA;float: left;height: 200px;margin: 5px 0;padding: 0;resize: none;width: 720px;}
+.tenant_form{float: left;margin: 6px 0;   padding: 0;   /*width: 100% !important;*/}
+.landlord_form{float: left;margin: 6px 0;padding: 0;width: 100% !important;}
+.landlord_form textarea {resize:none;border: 1px solid #01A7E5;border-radius: 3px 3px 3px 3px;color: #0074AA;float: left;height: 200px;margin: 5px 0;padding: 0;width: 625px;}
+.max_words_landlord{float: right !important;font-size: 14px;font-style: normal;margin-right: 50px;margin-top: 0;}
+.sortable-text{width: 185px;font-weight:bold;}
+
+.account_td{width: 75px;text-align:center;}
+/*
+.messenger-box th{	width:185px;	text-align: left;}
+.messenger-box td{	text-align:left;	width:185px;}
+*/
+.submitform_inputs_reply{float:left;width:100% !important;clear:both;margin:6px 0 6px;text-align:center;}
+.submitform_inputs_reply .submit{margin:0 1px 0 20px;float:right;background: url("../images/send.png") no-repeat scroll left top transparent;cursor: pointer;height: 35px;padding: 0;width: 110px;}
+.submitform_inputs_reply .cancel{float: left;margin-left: 520px;margin-top:0px;}
+/* changed to margin:0px to show prefectly in FF  default: -1px */
+.submitform_landlord_inputs_reply .submit{margin:0 1px 0 20px;float:right;background: url("../images/send.png") no-repeat scroll left top transparent;cursor: pointer;height: 35px;padding: 0;width: 110px;}
+.submitform_landlord_inputs_reply .cancel{float: left;margin-left: 385px;}
+.select_all{color:#0074AA;font-family: 'Calibri';font-size: 14px;font-weight: bold;}
+.select_delete { float:left; margin: 12px 0 12px 14px;}
+.messaging_th{width:163px;text-align:left;}
+.messaging_th_unit{width:75px;text-align:left;padding-left: 43px;}
+.messaging_td{width:158px;text-align:left;}
+.messaging_td_unit{width:75px;text-align:center;}
+.accounting_th{width:275px;text-align:left;}
+.accounting_th_amount{width:200px;text-align:left;}
+.accounting_th_status{width:145px;text-align:left;}
+.accounting_td{width:168px;text-align:center;}
+.property_th{width:140px;text-align:left;}
+.property_th_addr{width:235px;text-align:left;}
+.property_th_no_of{width:82px;text-align:left;}
+.property_td{width:140px;text-align:center;}
+.property_td_addr{width:235px;text-align:center;}
+.property_td_no_of{width:82px;text-align:center;}
+.detail_th{width:300px;text-align:left;}
+.detail_th_unit{width:110px;text-align:left;}
+.detail_td{width:190px;text-align:left;}
+.detail_td_unit{width:110px;text-align:center;}
+.enroll_now{font-size:30px;color:#0074AA;margin:25px 0 0 10px;}
+.enroll_now_div{display: inline-block;text-align: center;vertical-align:top;}
+.policy{float: right;font-size: 10px;color:#0074AA;margin: -8px 55px 50px 0;}
+.date_policy{float:left;font-size:12px;color:#0074AA;margin-left:10px;}
+.account_select select{margin:0 0 0 5px;color: #0074AA;padding:3px 0;float:left;width:90px;}
+.account_select span{float:right;margin: 3px 0 12px 0;color: #0074AA;font-family: 'Calibri';font-size: 16px;font-weight:normal;}
+.save{margin: -8px 0 0 18px;padding: 0;width: 135px;float: left;text-align: center;}
+.separator{color: #0074AA;display: inline-block;font-size: 23px;margin: 22px 0 0 11px;float:left;}
+.separator_landlord{color: #0074AA;display: inline-block;font-size: 23px;height: 35px; margin: 22px 0 0 11px;vertical-align: top;}
+.autopay_cancel{color: #0074AA;cursor: pointer;display: inline-block;font-size: 27px;margin: 22px 0 0 10px;text-decoration: none;vertical-align: top;}
+.txtToalert{margin-left: 90px;font-size: 14px;color: red;clear:both;padding-bottom:17px;}
+.payment_summary_th{width:91px;text-align:left;}
+.payment_summary_th_unit{width:30px;text-align:left;}
+.payment_summary_th_tenant{width:91px;text-align:left;}
+.payment_summary_th_type{width:106px;text-align:left;}
+.payment_summary_td{width:91px;text-align:center;}
+.payment_summary_td_unit{width:30px;text-align:center;}
+.payment_summary_td_tenant{width:85px;text-align:center;}
+.payment_summary_td_type{width:48px;text-align:center;padding-right:7px !important;padding-left:37px !important;}
+.payment_summary_td_date{width:53px;text-align:center;padding-right:7px !important;padding-left:33px !important;}
+.payment_summary_td_amt{text-align:center;padding-right:7px !important;padding-left:27px !important;}
+.payment_summary_td_status{text-align:center;padding-left:36px !important;}
+.detailed_summary_th{width:91px;text-align:left;padding-right: 1px !important;padding-left: 9px !important;}
+.detailed_summary_th_unit{width:30px;text-align:left;}
+.detailed_summary_th_tenant{width:91px;text-align:left;padding-right: 1px !important;padding-left: 1px !important;}
+.detailed_summary_th_type{width:106px;text-align:left;padding-right: 5px !important;padding-left: 20px !important;}
+.detailed_summary_th_date{width: 30px;padding-right:13px;}
+.detailed_summary_th_amt{width: 30px;padding-right:5px;}
+.detailed_summary_td{width:91px;text-align:center;padding-right: 1px !important;padding-left: 9px !important;}
+.detailed_summary_td_unit{width:15px;text-align:center;}
+.detailed_summary_td_tenant{width:85px;text-align:center;padding-right: 1px !important;padding-left: 1px !important;}
+.detailed_summary_td_type{width:48px;text-align:center;padding-right:7px !important;padding-left:28px !important;}
+.detailed_summary_td_date{width:53px;text-align:center;padding-right:7px !important;padding-left:47px !important;}
+.detailed_summary_td_amt{text-align:center;padding-right:7px !important;padding-left:7px !important;}
+.detailed_summary_td_status{text-align:center;padding-left:36px !important;}
+.latefee_th_tenant{width:110px;text-align:left;}
+.latefee_td_date{width:53px;text-align:center;padding-right:7px !important;padding-left:13px !important;}
+.messaging_tenant_from{width:285px;text-align:left;}
+.messaging_tenant_date{width:140px;text-align:left;}
+.messaging_tenant_sub{width:250px;text-align:left;}
+#backbtn_lanlord_payment {background: url("../images/back-btn.jpg") no-repeat scroll left top transparent;border: 0 none;cursor: pointer;float: right;height: 35px;margin: 0 10px 0 0;padding: 0;text-indent: -9999px;width: 112px;}
+#selectall{padding: 5px 20px;color: #0074AA;font-family: 'Calibri';font-size: 16px;}
+.not_viewable_content { color: #0074AA;float:left;font-size:14px;padding: 25px 25px 25px 0;width: 745px;}
+
+#slides-wrap-home .slider-pagination { left: 443.5px; }
+.controlnav-thumbs .nivo-controlNav { left: 337.5px; }
+#top-menu { margin-top: 20px; }
+.ddsmoothmenu ul li ul li a { width: 160px; }
+body { font-family: "Helvetica Neue", Arial, Helvetica, sans-serif; }
+nav { font-family: "Open Sans", Helvetica, Arial, serif, sans-serif; }
+h1, h2, h3, h4, h5, h6, 
+.footer-message, 
+.post-more, 
+.sc-tabs-wrap .tabs li .tab { font-family: "Open Sans", Helvetica, Arial, serif, sans-serif; }
+.blog-list li .post-meta,
+.post-blog-single .post-meta,
+.sc-slider-list li .skills,
+.sc-slider-list li .meta,
+.comment-meta .time,
+.top-contact,
+.widget-tweets li .date,
+.widget-posts li .post-meta,
+.widget-portfolios li .post-meta,
+.widget-comments li .post-meta,
+.widget-contact-details li span,
+.sc-iconbox .iconbox-sub-title { font-family: "Mako", Helvetica, Arial, serif, sans-serif; }
+#top-menu ul.drop-menu li a { font-size: 12px; }
+#top-menu ul.drop-menu li ul li a { font-size: 12px; }
+.post-content h1  { font-size: 24px; }
+.post-content h2  { font-size: 20px; }
+.post-content h3  { font-size: 16px; }
+.post-content h4  { font-size: 14px; }
+.post-content h5  { font-size: 12px; }
+.post-content h6  { font-size: 10px; }
+body { color: #666; }
+a { color: #444; }
+a:hover,
+#top-menu ul.drop-menu li a:hover,
+#top-menu ul.drop-menu li a.selected,
+.blog-list li .post-meta a:hover,
+.post-blog-single .post-meta a:hover,
+.comment-meta .fn a:hover,
+.comment-form-author span,
+.comment-form-email span,
+.widget-tweets li .date a:hover,
+.widget-posts li .post-meta a:hover,
+.widget-portfolios li .post-meta a:hover,
+.sc-slider-list li .meta a:hover,
+.sc-slider-list li .skills a:hover { color: #B61818; }
+.sc-iconbox .iconbox-link a:hover,
+.blog-big-list .blog-list-meta-box .post-more a:hover,
+.blog-small-list .post-more a:hover { background: #B61818; }
+
+
+body { background: url(http://www.acpcomputer.edu.sg/wp-content/themes/march/assets/images/backgrounds/pattern-4.png) repeat #EAEAEA; } 
+#divBottomRight img 
+{
+    width: 32px; 
+}
+
+
+/* Adjusting the margins, paddings and no list styles */
+.navigation  {
+    margin:0; 
+    padding:0; 
+    list-style:none;
+}	
+
+/* Little tricking with positions */
+.navigation  li {
+    float:left;			/* Show list items inline */
+    width:234px; 
+    position:relative; 
+}
+
+/* Playing with Main Categories */
+.navigation  li a {
+    background:#007EC7; 
+    color:#fff;
+    display:block;  	/* Making sure a element covers whole li area */
+    padding:8px 7px 8px 7px; 
+    text-decoration:none; /* No underline */
+    text-align:center; 
+    text-transform:uppercase;
+}
+
+.navigation  li a:hover {
+    color:black;
+}
+
+/* Sub Cat Menu stuff*/
+.navigation  ul {
+    position:absolute; 
+    left:0; 
+    display:none; /* Hide it by default */
+    margin:0 0 0 -1px; 
+    padding:0; 
+    list-style:none;
+    border-bottom:3px solid #F2861D;
+}
+
+.navigation  ul li {
+    width:190px; 
+    float:left; 
+    border-top:none;
+}
+
+/* Sub Cat menu link properties */
+.navigation  ul a {
+    display:block;    	/* Making sure a element covers whole li area */
+    height:15px;
+    padding:8px 7px 13px 7px; 
+    color:#white;
+    text-decoration:none;	
+    border-top:none;
+    border-bottom:1px dashed #6B6B6B;
+}
+
+.navigation  ul a:hover {
+    color:black;
+}

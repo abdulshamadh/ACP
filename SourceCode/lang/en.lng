@@ -1,0 +1,38 @@
+<?php
+
+/* file for english language */
+
+$lang = array();
+
+$lang['T_DOCUMENT_TITLE'] = "ACP Computer";
+
+//admin login
+$lang['T_ADMIN_LOGIN_FAILED'] = "Session timed out or Invalid Username/Password. Please Try Again.";
+$lang['T_ADMIN_LOGIN_EMAIL_INVALID'] = "Please Enter Your Valid Email Address";
+
+
+//General Settings
+$lang['T_ADMIN_GENERAL_SETTINGS'] = "General Settings";
+$lang['T_ADMIN_GENERAL_FIELD_EMAIL'] = "Admin Email:";
+$lang['T_ADMIN_GENERAL_FIELD_SMTP_HOST'] = "SMTP Host:";
+$lang['T_ADMIN_GENERAL_FIELD_SMTP_USER_NAME'] = "SMTP Username:";
+$lang['T_ADMIN_GENERAL_FIELD_SMTP_PASS_WORD'] = "SMTP Password:";
+$lang['T_ADMIN_GENERAL_FIELD_SMTP_PORT'] = "SMTP Port:";
+//$lang['T_ADMIN_GENERAL_FILED_CONTENT_PAGE_URL']  = "Content Page:";
+$lang['T_ADMIN_PAYPAL_SETTING_URL'] = "PayPal Email Address Payable:";
+
+$lang['T_ADMIN_ERR_GENERAL_EMAIL'] = "Email Address Is Not Valid";
+$lang['T_ADMIN_ERR_GENERAL_SMTP_HOST'] = "SMTP Host Cannot Be Blank";
+$lang['T_ADMIN_ERR_GENERAL_SMTP_USER'] = "SMTP User Cannot Be Blank";
+$lang['T_ADMIN_ERR_GENERAL_SMTP_PASSWORD'] = "SMTP Password Cannot Be Blank";
+$lang['T_ADMIN_ERR_GENERAL_SMTP_PORT'] = "SMTP Port Cannot Be Blank";
+$lang['T_ADMIN_ERR_GENERAL_PAYPAL_EMAIL_ID'] = "PayPal Email ID You Have Entered Is Not Valid";
+$lang['T_ADMIN_GS_CHANGE_MSG'] = "General Settings Changed Successfully";
+
+$lang['T_ADMIN_PAGETITLE_GENERAL_SETTINGS'] = "General Settings ~ ACP Computer";
+$lang['T_ADMIN_GENERAL_SETTINGS_MANDATORY'] = "Mandatory";
+$lang['T_ADMIN_GENERAL_SETTINGS_BUTTON'] = "Update General Settings";
+$lang['T_ADMIN_GENERAL_SETTINGS_CANCEL_BUTTON'] = "Cancel";
+$lang['T_COPYRIGHT'] = "www.ACP Computer.com";
+$lang['T_ADMIN_DASH'] = "Admin Dashboard";
+?>

@@ -1,0 +1,186 @@
+@CHARSET "UTF-8";
+/******* GENERAL RESET *******/
+
+.clear{
+    clear: both;
+    height: 0;
+    visibility: hidden;
+    display: block;
+}
+
+strong{
+    font-weight: 700;
+}
+/******* GENERAL RESET *******/
+h1{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.2em;
+    border-bottom: 1px dotted #6b9ef1;
+    color: #5f95ef;
+    margin-bottom: 1em;
+}
+/******* LOGO *******/
+#logo{
+    margin-top: 1em;
+    display: block;
+}
+/******* /LOGO  *******/
+/******* CONTAINER *******/
+#container{
+    width: 600px;
+    margin-left: 100px;
+    margin-top:-40px;
+    text-align: left;
+}
+/******* /CONTAINER *******/
+/******* FORM *******/
+#customForm,#registerForm,#editUserForm,#forgotForm,#invitetenantForm,#invitelandlordForm,#changepasswordForm,#addpropertyForm,#editpropertyForm,#addaccountForm,#editaccountForm{
+    padding: 0 10px 10px;
+}
+#customForm label,#registerForm label,#editUserForm label,#forgotForm label,#invitetenantForm label,#invitelandlordForm label,#changepasswordForm label,#addpropertyForm label,#editpropertyForm label,#addaccountForm label,#editaccountForm label{
+    display: block;
+    color: #797979;
+    font-weight: 700;
+    line-height: 1.4em;
+}
+#customForm input,#registerForm input,#editUserForm input,#forgotForm input,#invitetenantForm input,#invitelandlordForm input,#changepasswordForm input,#addpropertyForm input,#editpropertyForm input,#addaccountForm input,#editaccountForm input{
+    width: 220px;
+    padding: 6px;
+    color: #949494;
+    font-family: Arial,  Verdana, Helvetica, sans-serif;
+    font-size: 11px;
+    border: 1px solid #cecece;
+
+}
+
+
+input#role{width:auto;}
+input#agree{width:auto;}
+input#account1{width:auto;}
+input#status{width:auto;}
+input#subscription{width:auto;}
+
+#customForm select,#registerForm select,#editUserForm select,#addpropertyForm select,#editpropertyForm select,#addaccountForm select,#editaccountForm select{
+    width: 230px;
+    padding: 6px;
+    color: #949494;
+    font-family: Arial,  Verdana, Helvetica, sans-serif;
+    font-size: 11px;
+    border: 1px solid #cecece;
+}
+#customForm input.error,#registerForm input.error,#editUserForm input.error,#forgotForm input.error,#invitetenantForm input.error,#invitelandlordForm input.error,#changepasswordForm input.error,#addpropertyForm input.error,#editpropertyForm input.error,#addaccountForm input.error,#editaccountForm input.error{
+    background: #f8dbdb;
+    border-color: #e77776;
+}
+#customForm select.error,#registerForm select.error,#editUserForm select.error,#addpropertyForm select.error,#editpropertyForm select.error,#addaccountForm select.error,#editaccountForm select.error{
+    background: #f8dbdb;
+    border-color: #e77776;
+}
+#customForm textarea,#registerForm textarea,#editUserForm textarea,#addpropertyForm textarea,#editpropertyForm textarea,#addaccountForm textarea,#editaccountForm textarea{
+    width: 550px;
+    height: 80px;
+    padding: 6px;
+    color: #adaeae;
+    font-family: Arial,  Verdana, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 12px;
+    border: 1px solid #cecece;
+}
+#customForm textarea.error,#registerForm textarea.error,#editUserForm textarea.error,#addpropertyForm textarea.error,#editpropertyForm textarea.error,#addaccountForm textarea.error,#editaccountForm textarea.error{
+    background: #f8dbdb;
+    border-color: #e77776;
+}
+#customForm div,#registerForm div,#editUserForm div,#forgotForm div,#invitetenantForm div,#invitelandlordForm div,#changepasswordForm div,#addpropertyForm div,#editpropertyForm div,#addaccountForm div,#editaccountForm div{
+    margin-bottom: 15px;
+}
+#customForm div span,#registerForm div span,#editUserForm div span,#forgotForm div span,#invitetenantForm div span,#invitelandlordForm div span,#changepasswordForm div span,#addpropertyForm div span,#editpropertyForm div span,#addaccountForm div span,#editaccountForm div span{
+    margin-left: 10px;
+    color: #b1b1b1;
+    font-size: 11px;
+    font-style: italic;
+}
+#customForm div span.error,#registerForm div span.error,#editUserForm div span.error,#forgotForm div span.error,#invitetenantForm div span.error,#changepasswordForm div span.error,#invitelandlordForm div span.error,#addpropertyForm div span.error,#editpropertyForm div span.error,#addaccountForm div span.error,#editaccountForm div span.error{
+    color: #e46c6e;
+}
+
+
+input#change_pass{color:#fff;}
+input#edituser{color:#fff;}
+input#forgot{color:#fff;}
+input#addproperty{color:#fff;}
+input#editproperty{color:#fff;}
+input#addaccount{color:#fff;}
+input#editaccount{color:#fff;}
+input#submit{color:#fff;}
+
+#customForm #change_pass,#registerForm #register,#registerForm #edituser,#invitetenantForm #invite_tenant,#invitelandlordForm #invite_landlord, #change_pass , #edituser, #forgot,#addproperty,#editproperty,#addaccount,#editaccount,#submit{
+    background: #6f9ff1;
+    color: #fff;
+    font-weight: 700;
+    font-style: normal;
+    border: 0;
+    cursor: pointer;
+}
+#customForm #change_pass:hover{
+    background: #79a7f1;
+}
+#registerForm #register:hover{
+    background: #79a7f1;
+}
+#editUserForm #edituser:hover{
+    background: #79a7f1;
+}
+#forgot:hover{
+    background: #79a7f1;
+}
+#submit:hover{
+    background: #79a7f1;
+}
+#addproperty:hover{
+    background: #79a7f1;
+}
+
+#editproperty:hover{
+    background: #79a7f1;
+}
+#addaccount:hover{
+    background: #79a7f1;
+}
+#editaccount:hover{
+    background: #79a7f1;
+}
+#change_pass:hover{
+    background: #79a7f1;
+}
+
+#invitetenantForm #invite_tenant:hover{
+    background: #79a7f1;
+}
+
+#invitelandlordForm #invite_landlord:hover{
+    background: #79a7f1;
+}
+
+
+
+#error{
+    margin-bottom: 20px;
+    border: 1px solid #93D72E;
+}
+#error ul{
+    list-style: square;
+    padding: 5px;
+    font-size: 11px;
+}
+#error ul li{
+    list-style-position: inside;
+    line-height: 1.6em;
+}
+#error ul li strong{
+    color: #e46c6d;
+}
+#error.valid ul li strong{
+    color: #93d72e;
+}
+/******* /FORM *******/

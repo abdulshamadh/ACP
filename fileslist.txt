@@ -1,0 +1,112 @@
+########################################################################################################
+										Folders & Files List
+########################################################################################################
+
+/* * **************************************************************************************************
+ * File - fileslist.txt
+ * Created On - 04 March 2013
+ * Updated On - 
+ * Description - This is the folders and files list.
+ * ************************************************************************************************** */
+
+--------------------------------------------------------------------------------------------------------
+Folders & Files List
+--------------------------------------------------------------------------------------------------------
+1. Documents
+2. Screen Shots
+3. SourceCode
+4. SQL Dump
+5. fileslist.txt
+6. readme.txt
+
+--------------------------------------------------------------------------------------------------------
+Documents Folder Files
+--------------------------------------------------------------------------------------------------------
+1. Files/Documents/Development Instruction Details.doc
+2. Files/Documents/Login Credential.doc
+3. Files/Documents/My Responsibilities.doc
+4. Files/Documents/Requirements.doc
+5. Files/Documents/Technologies Used.doc
+
+--------------------------------------------------------------------------------------------------------
+Screen Shots Folders
+--------------------------------------------------------------------------------------------------------
+1. Files/Documents/Screen Shots/Back_End
+2. Files/Documents/Screen Shots/Database
+3. Files/Documents/Screen Shots/Front_End
+
+--------------------------------------------------------------------------------------------------------
+Back_End Folder Files
+--------------------------------------------------------------------------------------------------------
+1. Files/Documents/Screen Shots/Back_End/1_Admin_Login_Page.png
+2. Files/Documents/Screen Shots/Back_End/2_Admin_Home_Page.png
+3. Files/Documents/Screen Shots/Back_End/3_Admin_Change_Password_Page.png
+4. Files/Documents/Screen Shots/Back_End/4_Admin_Manage_Users_View_Page.png
+5. Files/Documents/Screen Shots/Back_End/5_Admin_Manage_User_Edit_Page.png
+6. Files/Documents/Screen Shots/Back_End/6_Admin_Manage_Users_Delete_Page.png
+7. Files/Documents/Screen Shots/Back_End/7_Admin_Manage_Subscribers_View_Page.png
+8. Files/Documents/Screen Shots/Back_End/8_Admin_Manage_Subscribers_Add_Page.png
+9. Files/Documents/Screen Shots/Back_End/9_Admin_Manage_Subscribers_Email_Send_Page.png
+10. Files/Documents/Screen Shots/Back_End/10_Admin_Manage_Subscribers_Mail_Content_Page.png
+11. Files/Documents/Screen Shots/Back_End/11_Admin_Manage_Subscribers_Unsubscriber_Email_Notification_Page.png
+12. Files/Documents/Screen Shots/Back_End/12_Admin_Manage_Subscribers_Edit_Page.png
+13. Files/Documents/Screen Shots/Back_End/13_Admin_Manage_Subscribers_Delete_Page.png
+
+
+--------------------------------------------------------------------------------------------------------
+Database Folder Files
+--------------------------------------------------------------------------------------------------------
+1. Files/Documents/Screen Shots/Database/Database_Dump/technicalexam.sql
+2. Files/Documents/Screen Shots/Database/1_Admin_Structure.png
+3. Files/Documents/Screen Shots/Database/1_Admin_Table.png
+4. Files/Documents/Screen Shots/Database/2_Settings_Structure.png
+5. Files/Documents/Screen Shots/Database/2_Settings_Table.png
+6. Files/Documents/Screen Shots/Database/3_Subscribers_Structure.png
+7. Files/Documents/Screen Shots/Database/3_Subscribers_Table.png
+8. Files/Documents/Screen Shots/Database/4_Users_Structure.png
+9. Files/Documents/Screen Shots/Database/4_Users_Table.png
+10. Files/Documents/Screen Shots/Database/Full_Database_Design.png
+
+--------------------------------------------------------------------------------------------------------
+Front_End Folder Files
+--------------------------------------------------------------------------------------------------------
+1. Files/Documents/Screen Shots/Front_End/1_Home_Page.png
+2. Files/Documents/Screen Shots/Front_End/2_Registration_Page.png
+3. Files/Documents/Screen Shots/Front_End/3_Thankyou_Page.png
+4. Files/Documents/Screen Shots/Front_End/4_Email_Notification_Page.png
+5. Files/Documents/Screen Shots/Front_End/5_Account_Activate_Page.png
+6. Files/Documents/Screen Shots/Front_End/6_Login_Page.png
+7. Files/Documents/Screen Shots/Front_End/7_Forgot_Password_Page.png
+8. Files/Documents/Screen Shots/Front_End/8_Forgot_Password_Email_Page.png
+9. Files/Documents/Screen Shots/Front_End/9_Forgot_Thankyou_Page.png
+10. Files/Documents/Screen Shots/Front_End/10_Forgot_Failure_Page.png
+11. Files/Documents/Screen Shots/Front_End/11_My_Profile_Page.png
+12. Files/Documents/Screen Shots/Front_End/12_My_Subscription_Page.png
+
+--------------------------------------------------------------------------------------------------------
+SourceCode Folders & Files
+--------------------------------------------------------------------------------------------------------
+
+1. Files/SourceCode/admin
+2. Files/SourceCode/class
+3. Files/SourceCode/css
+4. Files/SourceCode/fonts
+5. Files/SourceCode/functions
+6. Files/SourceCode/images
+7. Files/SourceCode/includes
+8. Files/SourceCode/js
+9. Files/SourceCode/lang
+10. Files/SourceCode/modules
+11. Files/SourceCode/global.php
+12. Files/SourceCode/index.php
+13. Files/SourceCode/phpinfo.php
+14. Files/SourceCode/robots.txt
+
+--------------------------------------------------------------------------------------------------------
+SQL Dump Folders & Files
+--------------------------------------------------------------------------------------------------------
+
+1. Files/SQL Dump/technicalexam.sql
+
+
+

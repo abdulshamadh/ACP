@@ -1,0 +1,275 @@
+/*
+Theme Name: March
+Theme URI: http://themeforest.net/user/HawkTheme/portfolio
+Description: Business WordPress Theme
+Version: 1.0.4
+Author: HawkTheme
+Author URI: http://themeforest.net/user/HawkTheme
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+*/
+@CHARSET "UTF-8";
+/******* GENERAL RESET *******/
+
+.clear{
+    clear: both;
+    height: 0;
+    visibility: hidden;
+    display: block;
+}
+
+strong{
+    font-weight: 700;
+}
+/******* GENERAL RESET *******/
+h1{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.2em;
+    border-bottom: 1px dotted #6b9ef1;
+    color: #5f95ef;
+    margin-bottom: 1em;
+}
+#global_heading {
+    border:0px;
+    color: #5F95EF;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.2em;
+    margin-bottom: 2em;
+    text-align:center;
+}
+/******* LOGO *******/
+#logo{
+    margin-top: 1em;
+    display: block;
+}
+/******* /LOGO  *******/
+/******* CONTAINER *******/
+#container{
+    width: 600px;
+    margin-left: 100px;
+    margin-top:-40px;
+    text-align: left;
+}
+/******* /CONTAINER *******/
+/******* FORM *******/
+#customForm,#addUserForm,#editUserForm,#editchangepasswordForm,#addContentForm,#editContentForm,#addTransactionForm,#editTransactionForm,#global_rent,#global_subscription,#global_conv{
+    padding: 0 10px 10px;
+}
+#customForm label,#addUserForm label,#editUserForm label,#editchangepasswordForm label,#addContentForm label,#editContentForm label,#addTransactionForm label,#global_rent label,#global_subscription label,#global_conv label,#editTransactionForm label{
+    display: block;
+    color: #797979;
+    font-weight: 700;
+    line-height: 1.4em;
+}
+#customForm input,#addUserForm input,#editUserForm input,#editchangepasswordForm input,#addContentForm input,#editContentForm input,#addTransactionForm input,#editTransactionForm input,#global_rent input,#global_conv input,#global_subscription input{
+    width: 220px;
+    padding: 6px;
+    color: #949494;
+    font-family: Arial,  Verdana, Helvetica, sans-serif;
+    font-size: 11px;
+    border: 1px solid #cecece;
+}
+#customForm select,#addUserForm select,#editUserForm select,#editchangepasswordForm select{
+    width: 230px;
+    padding: 6px;
+    color: #949494;
+    font-family: Arial,  Verdana, Helvetica, sans-serif;
+    font-size: 11px;
+    border: 1px solid #cecece;
+}
+#customForm input.error,#addUserForm input.error,#editUserForm input.error,#editchangepasswordForm input.error,#addContentForm input.error,#editContentForm input.error,#addTransactionForm input.error,#editTransactionForm input.error,#global_rent input.error,#global_conv input.error,#global_subscription input.error{
+    background: #f8dbdb;
+    border-color: #e77776;
+}
+#customForm select.error,#addUserForm select.error,#editUserForm select.error,#editchangepasswordForm select.error{
+    background: #f8dbdb;
+    border-color: #e77776;
+}
+#customForm textarea,#addUserForm textarea,#editUserForm textarea,#editchangepasswordForm textarea,#addContentForm textarea,#editContentForm textarea{
+    width: 550px;
+    height: 80px;
+    padding: 6px;
+    color: #adaeae;
+    font-family: Arial,  Verdana, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 12px;
+    border: 1px solid #cecece;
+}
+#customForm textarea.error,#addUserForm textarea.error,#editUserForm textarea.error,#editchangepasswordForm textarea.error,#addContentForm textarea.error,#editContentForm textarea.error{
+    background: #f8dbdb;
+    border-color: #e77776;
+}
+#customForm div,#addUserForm div,#editUserForm div,#editchangepasswordForm div,#addContentForm div,#editContentForm div,#addTransactionForm div,#editTransactionForm div{
+    margin-bottom: 15px;
+}
+#customForm div span,#addUserForm div span,#editUserForm div span,#editchangepasswordForm div span,#addContentForm div span,#editContentForm div span,#addTransactionForm div span,#editTransactionForm div span,#global_rent div span,#global_conv div span,#global_subscription div span{
+    color: #b1b1b1;
+    font-size: 11px;
+    font-style: italic;
+}
+#customForm div span.error,#addUserForm div span.error,#editUserForm div span.error,#editchangepasswordForm div span.error,#addContentForm div span.error,#editContentForm div span.error,#addTransactionForm div span.error,#editTransactionForm div span.error{
+    color: #e46c6e;
+}
+#customForm #change_pass,#customForm #submit,#addUserForm #adduser,#addUserForm #edituser#editcontent, #global_subscription #glob_subscription, #global_rent #glob_rent, #global_rent #glob_rent, #global_conv #glob_conv{
+    background: #79a7f1;
+    color: #fff;
+    font-weight: 700;
+    font-style: normal;
+    border: 0;
+    cursor: pointer;
+}
+
+#customForm #submit{
+    background: #79a7f1;
+    color: #fff;
+    font-weight: 700;
+    font-style: normal;
+    border: 0;
+    cursor: pointer;
+}
+
+#customForm #submit:hover{
+    background: #79a7f1;
+    color: #fff;
+    font-weight: 700;
+    font-style: normal;
+    border: 0;
+    cursor: pointer;
+}
+
+#edituser,#addcontent,#editcontent,#addtransaction,#edittransaction,#submit{
+    background: #6f9ff1;
+    color: #fff;
+    font-weight: 700;
+    font-style: normal;
+    border: 0;
+    cursor: pointer;
+}
+
+#global_subscription #glob_subscription{
+    background: #79a7f1;
+    color: #fff;
+    font-weight: 700;
+    font-style: normal;
+    border: 0;
+    cursor: pointer;
+}
+
+#global_subscription #glob_subscription:hover{
+    background: #79a7f1;
+    color: #fff;
+    font-weight: 700;
+    font-style: normal;
+    border: 0;
+    cursor: pointer;
+}
+#global_rent #glob_rent{
+    background: #79a7f1;
+    color: #fff;
+    font-weight: 700;
+    font-style: normal;
+    border: 0;
+    cursor: pointer;
+}
+#global_conv #glob_conv{
+    background: #79a7f1;
+    color: #fff;
+    font-weight: 700;
+    font-style: normal;
+    border: 0;
+    cursor: pointer;
+}
+
+#global_rent #glob_rent:hover{
+    background: #79a7f1;
+    color: #fff;
+    font-weight: 700;
+    font-style: normal;
+    border: 0;
+    cursor: pointer;
+}
+#global_conv #glob_conv:hover{
+    background: #79a7f1;
+    color: #fff;
+    font-weight: 700;
+    font-style: normal;
+    border: 0;
+    cursor: pointer;
+}
+
+#customForm #change_pass{
+    background: #79a7f1;
+    color: #fff;
+    font-weight: 700;
+    font-style: normal;
+    border: 0;
+    cursor: pointer;
+}
+
+#customForm #change_pass:hover{
+    background: #79a7f1;
+    color: #fff;
+    font-weight: 700;
+    font-style: normal;
+    border: 0;
+    cursor: pointer;
+}
+#customForm #submit:hover{
+    background: #79a7f1;
+}
+
+#addUserForm #adduser:hover{
+    background: #79a7f1;
+}
+#editUserForm #edituser:hover{
+    background: #79a7f1;
+}
+
+#addContentForm #addcontent:hover{
+    background: #79a7f1;
+}
+#editContentForm #editcontent:hover{
+    background: #79a7f1;
+}
+#addTransactionForm #addtransaction:hover{
+    background: #79a7f1;
+}
+#editTransactionForm #edittransaction:hover{
+    background: #79a7f1;
+}
+
+#error{
+    margin-bottom: 20px;
+    border: 1px solid #93D72E;
+}
+#error ul{
+    list-style: square;
+    padding: 5px;
+    font-size: 11px;
+}
+#error ul li{
+    list-style-position: inside;
+    line-height: 1.6em;
+}
+#error ul li strong{
+    color: #e46c6d;
+}
+#error.valid ul li strong{
+    color: #93d72e;
+}
+
+#editUserForm input[type="submit"]{color:#fff;}
+#editchangepasswordForm input[type="submit"]{color:#fff;}
+#addContentForm input[type="submit"]{color:#fff;}
+#editContentForm input[type="submit"]{color:#fff;}
+#addTransactionForm input[type="submit"]{color:#fff;}
+#editTransactionForm input[type="submit"]{color:#fff;}
+
+
+input#role{width:auto;}
+input#agree{width:auto;}
+input#status{width:auto;}
+
+/******* /FORM *******/
